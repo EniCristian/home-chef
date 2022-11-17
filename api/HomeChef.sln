@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{00C67B5F-D4B8-4F48-92CB-22FBB3D49616}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeChef.Api", "api\src\HomeChef.Api\HomeChef.Api.csproj", "{168904D7-78D8-4FC4-A287-363731611667}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{168904D7-78D8-4FC4-A287-363731611667}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{168904D7-78D8-4FC4-A287-363731611667}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{168904D7-78D8-4FC4-A287-363731611667}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{168904D7-78D8-4FC4-A287-363731611667}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{168904D7-78D8-4FC4-A287-363731611667} = {00C67B5F-D4B8-4F48-92CB-22FBB3D49616}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3FDF619C-EBCE-467F-A8D9-0EBD82228E74}
+	EndGlobalSection
+EndGlobal
