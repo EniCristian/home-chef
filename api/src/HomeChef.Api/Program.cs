@@ -1,9 +1,15 @@
+using HomeChef.Api;
+using HomeChef.DataAccess;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddDbContext<HomeChefContext>(opt =>
+    opt.UseInMemoryDatabase("HomeChef"));
+builder.Services.AddHostedService<CreateInitialDataIfDbIsEmptyBgService>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
