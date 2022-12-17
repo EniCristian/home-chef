@@ -10,12 +10,12 @@ public class HomeChefContext : DbContext
 
     public HomeChefContext(DbContextOptions<HomeChefContext> options) : base(options)
     {
-        
+
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-       
+
         modelBuilder.Entity<Dish>().HasData(new
             List<Dish>()
             {
